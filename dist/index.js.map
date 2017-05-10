@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../src/index.js"],"sourcesContent":["import {parent} from './index.scss';\n\nconst t = 1;\nconsole.log(parent, t);\n"],"names":["const"],"mappings":";;;;;AAEAA,IAAM,CAAC,GAAG,CAAC,CAAC;AACZ,OAAO,CAAC,GAAG,CAAC,MAAM,EAAE,CAAC,CAAC,CAAC;;"}

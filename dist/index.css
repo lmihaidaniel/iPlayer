@@ -1,0 +1,25 @@
+.page {
+    padding: 20px;
+}
+
+.page .ana {
+    color: blue;
+}
+
+._title_bgate_10 {
+    color: red;
+}
+
+._article_bgate_14 {
+    font-size: 16px;
+}
+
+._child_bgate_22 {
+    background: black;
+}
+
+._parent_bgate_18 {
+    background: white;
+}
+
+/*# sourceMappingURL=index.css.map */

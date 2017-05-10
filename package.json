@@ -1,0 +1,68 @@
+{
+  "name": "iplayer",
+  "version": "0.0.1",
+  "description": "Interactive video player",
+  "license": "MIT",
+  "repository": "lmihaidaniel/iplayer",
+  "author": {
+    "name": "lmihaidaniel",
+    "email": "lacatusu.mihai.daniel@gmail.com",
+    "url": "github.com/lmihaidaniel"
+  },
+  "engines": {
+    "node": ">=7"
+  },
+  "scripts": {
+    "test": "xo",
+    "start": "node index.common.js",
+    "build": "bili index.js --format cjs --out-dir ./ --name index"
+  },
+  "main": "dist/index.js",
+  "bin": "cli.js",
+  "files": [
+    "lib",
+    "cli.js"
+  ],
+  "keywords": [
+    "rollup",
+    "esnext",
+    "compile",
+    "buble",
+    "es6"
+  ],
+  "rollup": {
+    "entry": "src/index.js",
+    "dest": "dist/index.js",
+    "moduleName": "test",
+    "watch": true,
+    "sourceMap": "dist/index.js.map"
+  },
+  "devDependencies": {
+    "xo": "latest"
+  },
+  "dependencies": {
+    "chalk": "latest",
+    "fancy-log": "latest",
+    "switchy": "latest",
+    "lodash.merge": "latest",
+    "live-server": "latest",
+    "rollup": "latest",
+    "rollup-watch": "latest",
+    "rollup-plugin-eslint": "latest",
+    "rollup-plugin-commonjs": "latest",
+    "rollup-plugin-node-resolve": "latest",
+    "rollup-plugin-json": "latest",
+    "rollup-plugin-strip": "latest",
+    "rollup-plugin-buble": "latest",
+    "rollup-plugin-uglify": "latest",
+    "rollup-plugin-replace": "latest",
+    "rollup-plugin-postcss": "latest",
+    "postcss-cssnext": "latest",
+    "postcss-modules": "latest",
+    "postcss-scss": "latest",
+    "postcss": "latest",
+    "precss": "latest",
+    "cssnano": "latest",
+    "perfectionist": "latest"
+  }
+}

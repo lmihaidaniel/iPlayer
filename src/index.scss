@@ -1,0 +1,26 @@
+$ana : red;
+
+:global .page {
+    padding: 20px;
+    .ana{
+      color: blue;
+    }
+}
+
+.title {
+    color: $ana;
+}
+
+.article {
+    font-size: 16px;
+}
+
+.parent {
+	background: white;
+
+	@at-root{
+		.child {
+			background: black;
+		}
+	}
+}
